@@ -1,0 +1,43 @@
+*{
+    font-family: fantasy;
+}
+
+
+
+.menu_active {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    color: red;
+
+}
+
+.service-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: center;
+    align-self: center;
+    row-gap: 20px;
+}
+.card{
+    margin: auto;
+
+}
+@media (max-width:1000px ) {
+    .service-column {
+        grid-template-columns: 1fr 1fr;
+   }
+}
+
+@media (max-width:623px ) {
+    .service-column {
+        grid-template-columns: 1fr;
+   }
+}
+
+.common_heading{
+    max-width: 613px;
+}
+
+.header{
+    margin-top: 10%;
+}                
